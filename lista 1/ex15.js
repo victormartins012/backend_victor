@@ -17,4 +17,4 @@ console.log(nomes);
 
 produtos.forEach(produto => {
   console.log(`${produto.nome} - R$ ${produto.preco}`);
-})
+});
