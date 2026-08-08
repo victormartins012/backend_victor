@@ -1,0 +1,35 @@
+### Listar todos os produtos
+
+GET http://localhost:3000/produtos
+
+### Buscar produto pelo ID 1
+
+GET http://localhost:3000/produtos/1
+
+### Buscar produto que não existe
+
+GET http://localhost:3000/produtos/99
+
+### Criar um novo produto
+
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+    "nome": "Mochila",
+    "preco": 150
+}
+
+### Atualizar produto ID 1
+
+PUT http://localhost:3000/produtos/1
+Content-Type: application/json
+
+{
+    "nome": "Caneta Azul Premium",
+    "preco": 10
+}
+
+### Remover produto ID 2
+
+DELETE http://localhost:3000/produtos/2
