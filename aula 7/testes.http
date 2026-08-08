@@ -1,0 +1,61 @@
+
+### POST sem nome - espera 400
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+    "preco": 10
+}
+
+###
+
+### POST sem preco - espera 400
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+    "nome": "Mouse"
+}
+
+###
+
+### POST preco negativo - espera 400
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+    "nome": "Mouse",
+    "preco": -10
+}
+
+###
+
+### POST correto - espera 201
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+    "nome": "Mouse",
+    "preco": 45.90
+}
+
+###
+
+### GET produto inexistente - espera 404
+GET http://localhost:3000/produtos/999
+
+###
+
+### PUT produto inexistente - espera 404
+PUT http://localhost:3000/produtos/999
+Content-Type: application/json
+
+{
+    "nome": "Teclado",
+    "preco": 80
+}
+
+###
+
+### DELETE produto inexistente - espera 404
+DELETE http://localhost:3000/produtos/999
