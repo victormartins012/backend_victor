@@ -5,4 +5,4 @@ function reverse(array){
     }
     return num
 }
-console.log(num);
+console.log(num)
