@@ -19,4 +19,4 @@ console.log(`Aprovados: ${aprovados.length}`);
 
 const somaNotas = alunos.reduce((total, aluno) => total + aluno.nota, 0);
 const media = somaNotas / alunos.length;
-console.log(`Média da turma: ${media.toFixed(2)}`);
+console.log(`Média da turma: ${media.toFixed(2)}`)
