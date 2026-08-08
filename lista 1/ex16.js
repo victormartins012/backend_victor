@@ -1,9 +1,9 @@
 const alunos = [
-  { nome: 'Lucas', nota: 8.5 },
-  { nome: 'Diego', nota: 6.2 },
-  { nome: 'Duarda', nota: 7.0 },
-  { nome: 'Luquinhas', nota: 4.8 },
-  { nome: 'Olivia', nota: 9.1 },
+  { nome: 'Victor', nota: 9.0 },
+  { nome: 'Fabricio', nota: 4.1 },
+  { nome: 'Kelvin', nota: 8.2 },
+  { nome: 'Toddy', nota: 6.5 },
+  { nome: 'Murilo', nota: 7.6 },
 ];
 
 const boletim = alunos.map(aluno => {
