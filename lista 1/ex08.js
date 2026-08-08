@@ -14,4 +14,4 @@ for (let linha = 0; linha < tam; linha++) {
   }
   tabuleiro += '\n';
 }
-console.log(tabuleiro);
+console.log(tabuleiro)
