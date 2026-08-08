@@ -8,4 +8,4 @@ const multiplicar = (x, y) => x*y;
 
 console.log(calcular(6, 7, somar));
 console.log(calcular(6, 7, subtrair));
-console.log(calcular(6, 7, multiplicar));
+console.log(calcular(6, 7, multiplicar))
