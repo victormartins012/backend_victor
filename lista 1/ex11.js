@@ -10,3 +10,4 @@ if (votar(idade)) {
   console.log('pode votar'); 
 } else {
   console.log('nao pode votar');  
+}
