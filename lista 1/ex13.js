@@ -14,4 +14,4 @@ function soma(lista){
     return total
 }
 console.log(range(1,10))
-console.log(soma(range(1,10)))
+console.log(soma(range(1,10)));
