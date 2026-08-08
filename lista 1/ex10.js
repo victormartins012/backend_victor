@@ -21,5 +21,5 @@ function contarLetra(texto, letra) {
   return contador;
 }
 
-console.log(contLetra('alicate abacate', 'a')); // esperado: 3
-console.log(contLetra('mississippi', 's')); // esperado: 4
+console.log(contLetra('alicate abacate', 'a'));
+console.log(contLetra('mississippi', 's'));
