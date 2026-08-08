@@ -1,9 +1,9 @@
 const produtos = [
-  { id: 1, nome: 'Mouse', preco: 50 },
-  { id: 2, nome: 'Teclado', preco: 120 },
-  { id: 3, nome: 'Monitor', preco: 800 },
-  { id: 4, nome: 'Fone de ouvido', preco: 90 },
-  { id: 5, nome: 'Webcam', preco: 150 },
+  { id: 1, nome: 'Pizza', preco: 110 },
+  { id: 2, nome: 'Lanche', preco: 32 },
+  { id: 3, nome: 'Vibrador', preco: 150 },
+  { id: 4, nome: 'Relogio', preco: 350 },
+  { id: 5, nome: 'Consolo', preco: 100 },
 ];
 
 const produto3 = produtos.find(produto => produto.id === 3);
