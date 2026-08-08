@@ -5,4 +5,4 @@ const numero = readline.question(`Digite um número: `);
 for (let i = numero; i >= 1; i--){
     console.log(i);
 }
-console.log(`Fim`);
+console.log(`Fim`)
